@@ -12,6 +12,8 @@ $height: calc(100% - 56px);
   // height: 100%;
   // font-size: 14px;
   // z-index: 2;
+  overflow: hidden;
+  padding-top: 56px;
   font-size: 12px;
   background: #373737;
   width: 110px;
@@ -33,12 +35,19 @@ $height: calc(100% - 56px);
     padding: 12px 20px;
     margin-bottom: 20px;
     text-align: center;
+    background: #5a5a5a;
 
     &-link {
       line-height: 18px;
       display: flex;
       align-items: center;
       justify-content: left;
+    }
+
+    &-text {
+      color: #fff;
+      margin-left: 8px;
+      font-size: 12px;
     }
 
     &:hover,
