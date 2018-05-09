@@ -212,6 +212,11 @@ const router = new VueRouter({
           component: require('./components/styles/HeaderCPage.vue'),
         },
         {
+          path: '/styles/headeractivepage',
+          name: 'headeractivepage',
+          component: require('./components/styles/HeaderActivePage.vue'),
+        },
+        {
           path: '/styles/footerpage',
           name: 'footerpage',
           component: require('./components/styles/FooterPage.vue'),
@@ -367,6 +372,11 @@ const router = new VueRouter({
           path: '/functions/opations',
           name: 'opations',
           component: require('./components/functions/OpationsPage.vue'),
+        },
+        {
+          path: '/functions/swiper',
+          name: 'swiper',
+          component: require('./components/functions/SwiperPage.vue'),
         },
       ],
       component: require('./components/functions/Index.vue'),
